@@ -7,3 +7,8 @@ Proposed system has fan controlled by micro-controller. Fan is powered ON when C
 
 ![image](https://user-images.githubusercontent.com/84791971/149089547-f051d41a-e66e-486f-8d30-79661ff7a19d.png)
 
+Software Requirements: 
+	Arduino IDE (software) 
+	ThingSpeak IoT Platform
+
+
