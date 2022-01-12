@@ -2,10 +2,10 @@
 #include <ESP8266WiFi.h>
 #include <ThingSpeak.h>
 
-const char *apiKey = "9JDXK7M8RD3LNQ81";
-const char *ssid = "Vamshinath_Reddy" ;
-const char *pass = "Bunny@1999";
-unsigned long myChannel = 1392894;
+const char *apiKey = thinkspeakapi;
+const char *ssid = WIFI_id ;
+const char *pass = Wifi_pwd;
+unsigned long myChannel = channel_id;
 
 const int relayInput = 13;
 
@@ -126,10 +126,3 @@ void upload(){
     internet();
   }
 }
-
-
-
-
-
-http://norma.ncirl.ie/3856/1/bhupendersinghshekhawat.pdf
-https://towardsdatascience.com/how-to-build-a-dataset-from-twitter-using-python-tweepy-861bdbc16fa5
